@@ -7,7 +7,7 @@
   <meta name="description" content="Senior full-stack engineer with 10+ years building scalable AI-powered platforms in education and digital health. Core engineer on Syntea at IU Group. Previously Cara Care (Bayer). Berlin.">
   <meta name="author" content="Asad Manzoor">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#0f766e">
+  <meta name="theme-color" content="#0d7377">
   <link rel="canonical" href="https://etechdevai.github.io/">
   <link rel="icon" href="assets/profile-400.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="assets/profile-400.jpg">
@@ -17,10 +17,8 @@
   <meta property="og:url" content="https://etechdevai.github.io/">
   <meta property="og:site_name" content="Asad Manzoor">
   <meta property="og:title" content="Asad Manzoor | Senior AI Full-Stack Engineer in Berlin">
-  <meta property="og:description" content="Senior full-stack engineer building production LLM systems for education and regulated digital health. Syntea (IU Group), Cara Care, Edly.">
+  <meta property="og:description" content="Production LLM systems for education and regulated digital health. Syntea (IU Group), Cara Care, Edly.">
   <meta property="og:image" content="https://etechdevai.github.io/assets/profile.jpg">
-  <meta property="og:image:width" content="800">
-  <meta property="og:image:height" content="800">
   <meta property="og:image:alt" content="Portrait of Asad Manzoor">
 
   <meta name="twitter:card" content="summary">
@@ -31,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
   <script type="application/ld+json">
@@ -44,15 +42,8 @@
     "jobTitle": "Senior AI Full-Stack Engineer",
     "description": "Senior full-stack engineer with 10+ years of experience building scalable, AI-powered platforms in education and digital health.",
     "email": "mailto:asadmanzoorbhatti@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Berlin",
-      "addressCountry": "DE"
-    },
-    "worksFor": {
-      "@type": "Organization",
-      "name": "IU Group"
-    },
+    "address": {"@type": "PostalAddress", "addressLocality": "Berlin", "addressCountry": "DE"},
+    "worksFor": {"@type": "Organization", "name": "IU Group"},
     "alumniOf": [
       {"@type": "CollegeOrUniversity", "name": "Information Technology University"},
       {"@type": "CollegeOrUniversity", "name": "University of the Punjab"}
@@ -61,36 +52,27 @@
       "https://www.linkedin.com/in/asadmanzoor93/",
       "https://github.com/etechdevai"
     ],
-    "knowsAbout": [
-      "Large language models",
-      "FastAPI",
-      "Django",
-      "React",
-      "TypeScript",
-      "Python",
-      "Digital health",
-      "EdTech",
-      "AWS"
-    ]
+    "knowsAbout": ["Large language models", "FastAPI", "Django", "React", "TypeScript", "Python", "Digital health", "EdTech", "AWS"]
   }
   </script>
 </head>
 <body>
-  <div class="bg-glow" aria-hidden="true"></div>
-
-  <header>
-    <a class="brand" href="#top">Asad Manzoor</a>
-    <nav aria-label="Primary">
-      <a href="#work">Work</a>
-      <a href="#stack">Stack</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">Asad Manzoor</a>
+      <nav aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero wrap">
-      <div class="hero-copy">
+      <img class="avatar" src="assets/profile.jpg" width="320" height="320" alt="Portrait of Asad Manzoor" fetchpriority="high">
+      <div class="hero-text">
         <p class="eyebrow">Berlin · Senior AI full-stack engineer</p>
         <h1>Asad Manzoor</h1>
         <p class="tagline">LLM systems for education and regulated digital health</p>
@@ -101,10 +83,6 @@
           <a class="btn ghost" href="#work">Selected work</a>
         </div>
       </div>
-      <figure class="portrait">
-        <img src="assets/profile.jpg" width="800" height="800" alt="Portrait of Asad Manzoor" fetchpriority="high">
-        <figcaption>Core engineer at Syntea, IU Group</figcaption>
-      </figure>
     </section>
 
     <section class="about wrap">
@@ -121,89 +99,104 @@
         <h2>Products I have helped ship</h2>
       </div>
 
-      <article class="case">
-        <div class="copy">
+      <article class="project">
+        <div class="project-copy">
           <p class="meta">IU Group · May 2024 to present</p>
           <h3>Syntea</h3>
-          <p>AI study assistant for more than 80,000 distance learners. I design and own scalable backend architectures for AI-powered educational products, including multi-tenant systems and real-time LLM streaming. Provider-agnostic model integrations with a focus on reliability and latency.</p>
+          <p>AI study assistant for more than 80,000 distance learners. Backend architecture for provider-agnostic models, real-time streaming, and multi-tenant Python services.</p>
           <div class="mini-tech" aria-label="Technologies">
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="18" height="18"> Python</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="" width="18" height="18"> FastAPI</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="18" height="18"> Django</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" width="18" height="18"> MongoDB</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="" width="18" height="18"> Redis</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" alt="" width="18" height="18"> Kafka</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="18" height="18"> AWS</span>
-            <span><span class="mark" aria-hidden="true">AI</span> OpenAI</span>
-            <span><span class="mark" aria-hidden="true">A</span> Anthropic</span>
-            <span><span class="mark" aria-hidden="true">G</span> Gemini</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="16" height="16"> Python</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="" width="16" height="16"> FastAPI</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="16" height="16"> Django</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" width="16" height="16"> MongoDB</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="" width="16" height="16"> Redis</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="16" height="16"> AWS</span>
           </div>
-          <a class="visit" href="https://www.iu.de/en/syntea/" target="_blank" rel="noopener noreferrer">iu.de/en/syntea</a>
+          <a class="details" href="https://www.iu.de/en/syntea/" target="_blank" rel="noopener noreferrer">View product details</a>
         </div>
-        <a class="browser" href="https://www.iu.de/en/syntea/" target="_blank" rel="noopener noreferrer" aria-label="Open Syntea">
-          <div class="chrome" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="omnibox">iu.de/en/syntea</span></div>
-          <img src="assets/syntea.png" alt="Syntea product page on the IU website" loading="lazy">
-        </a>
+        <div class="slider" data-slider aria-roledescription="carousel" aria-label="Syntea product images">
+          <div class="slides">
+            <figure class="slide is-active"><img src="assets/syntea-1.jpg" alt="Syntea: personal AI study assistant" width="1400" height="787" loading="lazy"><figcaption>Syntea study companion</figcaption></figure>
+            <figure class="slide"><img src="assets/syntea-2.jpg" alt="Syntea features for curriculum-aware learning" width="1400" height="787" loading="lazy"><figcaption>Curriculum-aware features</figcaption></figure>
+          </div>
+          <div class="slider-controls">
+            <button type="button" class="slider-btn" data-prev aria-label="Previous Syntea slide">‹</button>
+            <div class="dots" role="tablist" aria-label="Syntea slides"></div>
+            <button type="button" class="slider-btn" data-next aria-label="Next Syntea slide">›</button>
+          </div>
+        </div>
       </article>
 
-      <article class="case reverse">
-        <div class="copy">
+      <article class="project reverse">
+        <div class="project-copy">
           <p class="meta">Cara Care · Jan 2022 to May 2024</p>
           <h3>Cara Care for IBS</h3>
-          <p>Prescribed digital therapy for irritable bowel syndrome, listed as a DiGA and later acquired by Bayer. Led backend product development for multiple DiGA therapies and internal web applications, with React tools and Contentful for the company website.</p>
+          <p>Prescribed digital therapy for irritable bowel syndrome, listed as a DiGA and later acquired by Bayer. Backend for the therapy products and the internal tools.</p>
           <div class="mini-tech" aria-label="Technologies">
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="18" height="18"> Django</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="18" height="18"> React</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" width="18" height="18"> TypeScript</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="" width="18" height="18"> PostgreSQL</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="16" height="16"> Django</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="16" height="16"> React</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" width="16" height="16"> TypeScript</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="" width="16" height="16"> PostgreSQL</span>
             <span><span class="mark" aria-hidden="true">C</span> Contentful</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" alt="" width="18" height="18"> Redux</span>
           </div>
-          <a class="visit" href="https://cara.care/en/reizdarm/" target="_blank" rel="noopener noreferrer">cara.care</a>
+          <a class="details" href="https://cara.care/en/reizdarm/" target="_blank" rel="noopener noreferrer">View product details</a>
         </div>
-        <a class="browser" href="https://cara.care/en/reizdarm/" target="_blank" rel="noopener noreferrer" aria-label="Open Cara Care">
-          <div class="chrome" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="omnibox">cara.care</span></div>
-          <img src="assets/cara.png" alt="Cara Care for IBS website" loading="lazy">
-        </a>
+        <div class="slider" data-slider aria-roledescription="carousel" aria-label="Cara Care product images">
+          <div class="slides">
+            <figure class="slide is-active"><img src="assets/cara-1.jpg" alt="Cara Care digital IBS therapy" width="1400" height="787" loading="lazy"><figcaption>DiGA digital therapy</figcaption></figure>
+            <figure class="slide"><img src="assets/cara-2.jpg" alt="Cara Care therapy program features" width="1400" height="787" loading="lazy"><figcaption>12-week therapy program</figcaption></figure>
+          </div>
+          <div class="slider-controls">
+            <button type="button" class="slider-btn" data-prev aria-label="Previous Cara Care slide">‹</button>
+            <div class="dots" role="tablist" aria-label="Cara Care slides"></div>
+            <button type="button" class="slider-btn" data-next aria-label="Next Cara Care slide">›</button>
+          </div>
+        </div>
       </article>
 
-      <article class="case">
-        <div class="copy">
+      <article class="project">
+        <div class="project-copy">
           <p class="meta">Arbisoft · Nov 2018 to Feb 2022</p>
-          <h3>Edly and Open edX</h3>
-          <p>Advanced online learning platform for academic, professional, and corporate training. Spearheaded Open edX LMS and marketing sites, led analytics tools across multiple facets, mentored junior engineers, and owned delivery across the full lifecycle.</p>
+          <h3>Edly</h3>
+          <p>Open edX learning platform for universities and companies. LMS, marketing sites, analytics, and mentoring across the product lifecycle.</p>
           <div class="mini-tech" aria-label="Technologies">
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="18" height="18"> Django</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="18" height="18"> React</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" width="18" height="18"> TypeScript</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" width="18" height="18"> Docker</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="18" height="18"> AWS</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" width="18" height="18"> MongoDB</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="16" height="16"> Django</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="16" height="16"> React</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" width="16" height="16"> TypeScript</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" width="16" height="16"> Docker</span>
+            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="16" height="16"> AWS</span>
           </div>
-          <a class="visit" href="https://edly.io/" target="_blank" rel="noopener noreferrer">edly.io</a>
+          <a class="details" href="https://edly.io/" target="_blank" rel="noopener noreferrer">View product details</a>
         </div>
-        <a class="browser" href="https://edly.io/" target="_blank" rel="noopener noreferrer" aria-label="Open Edly">
-          <div class="chrome" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="omnibox">edly.io</span></div>
-          <img src="assets/edly.png" alt="Edly Open edX learning platform" loading="lazy">
-        </a>
+        <div class="slider" data-slider aria-roledescription="carousel" aria-label="Edly product images">
+          <div class="slides">
+            <figure class="slide is-active"><img src="assets/edly-1.jpg" alt="Edly Open edX learning suite" width="1400" height="787" loading="lazy"><figcaption>Open edX learning suite</figcaption></figure>
+            <figure class="slide"><img src="assets/edly-2.jpg" alt="Edly LMS for universities and companies" width="1400" height="787" loading="lazy"><figcaption>LMS for universities and companies</figcaption></figure>
+          </div>
+          <div class="slider-controls">
+            <button type="button" class="slider-btn" data-prev aria-label="Previous Edly slide">‹</button>
+            <div class="dots" role="tablist" aria-label="Edly slides"></div>
+            <button type="button" class="slider-btn" data-next aria-label="Next Edly slide">›</button>
+          </div>
+        </div>
       </article>
 
       <div class="more-work">
         <article>
           <p class="meta">MS thesis · 2019 to 2020</p>
           <h3>GBVMeter</h3>
-          <p>Tool to analyze textual content concerning gender-based violence. Uses GBV2Vec, a Doc2Vec-based embedding model, for real-time analysis of blogs, news, and websites. Case study on COVID-19 and GBV via Google News.</p>
+          <p>Tool to analyze textual content concerning gender-based violence using a Doc2Vec model, including a COVID-19 case study from Google News.</p>
         </article>
         <article>
-          <p class="meta">Strategic Systems International · 2017 to 2018</p>
+          <p class="meta">SSI · 2017 to 2018</p>
           <h3>Healthcare Business Insights</h3>
-          <p>E-learning curriculum modules, learner and trainer tracking, analytics dashboards, notifications, and subscription management for hospital and health-system communities.</p>
-          <a class="visit" href="https://clarivate.com/life-sciences-healthcare/commercialization/healthcare-business-insights/" target="_blank" rel="noopener noreferrer">View product</a>
+          <p>E-learning curriculum, tracking, analytics dashboards, and subscription management for hospital communities.</p>
+          <a class="details" href="https://clarivate.com/life-sciences-healthcare/commercialization/healthcare-business-insights/" target="_blank" rel="noopener noreferrer">View product details</a>
         </article>
         <article>
-          <p class="meta">Strategic Systems International · 2017</p>
+          <p class="meta">SSI · 2017</p>
           <h3>GoStrive</h3>
-          <p>Gamified park experience on web, Android, and iOS with BLE iBeacon proximity and Contentful. Built admin panels, activity reports, and Lumen APIs for the mobile apps.</p>
+          <p>Gamified park experience on web, Android, and iOS with BLE iBeacon proximity, admin panels, and Lumen APIs.</p>
         </article>
       </div>
     </section>
@@ -212,34 +205,22 @@
       <div class="section-head">
         <p class="eyebrow">Tools and technologies</p>
         <h2>What I build with</h2>
-        <p class="section-lede">From LinkedIn: the stack behind production LLM systems, regulated health products, and learning platforms.</p>
-        <img class="skill-banner" src="https://skillicons.dev/icons?i=python,django,fastapi,react,ts,js,redux,vue,mongodb,postgres,mysql,redis,aws,docker,kubernetes,gitlab,laravel&amp;perline=9" width="900" height="98" alt="Icons for Python, Django, FastAPI, React, TypeScript, JavaScript, Redux, Vue, MongoDB, PostgreSQL, MySQL, Redis, AWS, Docker, Kubernetes, GitLab, and Laravel" loading="lazy">
+        <p class="section-lede">Stack from LinkedIn: production LLM systems, regulated health products, and learning platforms.</p>
+        <img class="skill-banner" src="https://skillicons.dev/icons?i=python,django,fastapi,react,ts,js,redux,vue,mongodb,postgres,mysql,redis,aws,docker,kubernetes,gitlab,laravel&amp;perline=9" width="900" height="98" alt="Technology icons for Python, Django, FastAPI, React, TypeScript, JavaScript, Redux, Vue, MongoDB, PostgreSQL, MySQL, Redis, AWS, Docker, Kubernetes, GitLab, and Laravel" loading="lazy">
       </div>
       <ul class="logo-grid">
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="36" height="36"><span>Python</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="" width="36" height="36"><span>FastAPI</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="36" height="36"><span>Django</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="36" height="36"><span>React</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" width="36" height="36"><span>TypeScript</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" width="36" height="36"><span>JavaScript</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" alt="" width="36" height="36"><span>Redux</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" alt="" width="36" height="36"><span>Vue.js</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" width="36" height="36"><span>MongoDB</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="" width="36" height="36"><span>PostgreSQL</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" width="36" height="36"><span>MySQL</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="" width="36" height="36"><span>Redis</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" alt="" width="36" height="36"><span>Kafka</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="36" height="36"><span>AWS</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" width="36" height="36"><span>Docker</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="" width="36" height="36"><span>Kubernetes</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="" width="36" height="36"><span>GitLab CI/CD</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="32" height="32"><span>Python</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="" width="32" height="32"><span>FastAPI</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" width="32" height="32"><span>Django</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="32" height="32"><span>React</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" width="32" height="32"><span>TypeScript</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" width="32" height="32"><span>MongoDB</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="" width="32" height="32"><span>PostgreSQL</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="" width="32" height="32"><span>Redis</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="32" height="32"><span>AWS</span></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" width="32" height="32"><span>Docker</span></li>
         <li><span class="mark lg" aria-hidden="true">AI</span><span>OpenAI</span></li>
         <li><span class="mark lg" aria-hidden="true">A</span><span>Anthropic</span></li>
-        <li><span class="mark lg" aria-hidden="true">G</span><span>Gemini</span></li>
-        <li><span class="mark lg" aria-hidden="true">C</span><span>Contentful</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" alt="" width="36" height="36"><span>pytest</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datadog/datadog-original.svg" alt="" width="36" height="36"><span>Datadog</span></li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="" width="36" height="36"><span>Laravel</span></li>
       </ul>
     </section>
 
@@ -297,7 +278,7 @@
       <div class="contact-panel">
         <p class="eyebrow">Contact</p>
         <h2>Let’s talk</h2>
-        <p>Open to senior engineering conversations about AI platforms, LLM systems, and trustworthy products that scale. Reach me directly.</p>
+        <p>Open to senior engineering conversations about AI platforms, LLM systems, and trustworthy products that scale.</p>
         <a class="email" href="mailto:asadmanzoorbhatti@gmail.com">asadmanzoorbhatti@gmail.com</a>
         <div class="cta-row">
           <a class="btn primary" href="mailto:asadmanzoorbhatti@gmail.com">Send email</a>
@@ -317,6 +298,7 @@
       <a href="https://github.com/etechdevai">GitHub</a>
     </span>
   </footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
