@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://etechdevai.github.io/sitemap.xml
