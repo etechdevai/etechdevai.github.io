@@ -91,19 +91,19 @@ nav a:hover { color: var(--teal-deep); }
 
 .hero {
   display: grid;
-  grid-template-columns: 112px 1fr;
-  gap: 1.5rem 1.75rem;
-  align-items: start;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem 2rem;
+  align-items: center;
   padding: 2.4rem 0 2.2rem;
 }
 
 .avatar {
-  width: 112px;
-  height: 112px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #fff;
-  box-shadow: 0 8px 24px rgba(28, 39, 53, 0.12);
+  border: 4px solid #fff;
+  box-shadow: 0 10px 28px rgba(28, 39, 53, 0.14);
 }
 
 .hero h1 {
@@ -603,8 +603,8 @@ footer a:hover { color: var(--teal-deep); }
   }
 
   .avatar {
-    width: 96px;
-    height: 96px;
+    width: 148px;
+    height: 148px;
   }
 
   .project,
